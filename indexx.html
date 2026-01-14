@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🛒 KantoKart</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
+  <link rel="stylesheet" href="testing.css">
+</head>
+<body>
+
+<!-- NAVBAR  -->
+<header>
+  <nav class="navbar section-content">
+<a href="#home" class="nav-logo">
+  <img src="kantokart.png" alt="KantoKart Logo" class="logo-img">
+  <h2 class="logo-text">KantoKart</h2>
+</a>
+
+    <ul class="nav-menu">
+      <button id="menu-close-button" type="button" class="fas fa-times"></button>
+
+      <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+      <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+      <li class="nav-item"><a href="#products" class="nav-link">Products</a></li>
+      <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+
+    <button id="menu-open-button" type="button" class="fas fa-bars"></button>
+  </nav>
+</header>
+
+<main>
+
+<!--HERO  -->
+<section class="hero-section" id="home">
+  <div class="section-content">
+    <div class="hero-details">
+      <h2 class="title">Tindahan in a Cart</h2>
+      <h3 class="subtitle">Daily Needs, Made Easy!</h3>
+      <p class="description">
+        A sari-sari store in a cart, located in Manila, Philippines.
+      </p>
+      <h4 class="desc"><i>(If you want to order, message us by clicking the button below)</i></h4>
+
+
+
+      <div class="buttons">
+        <a href="#contact" class="button order-now">Contact us to order!</a>
+      </div>
+    </div>
+
+    <img src="kantokart.png" alt="KantoKart Store">
+  </div>
+</section>
+
+<!--ABOUT -->
+<section class="about-section" id="about">
+  
+  <img src="kariton.jpg" alt="About KantoKart" class="about-image">
+
+  <div class="about-details">
+    <h2 class="section-title">About the Store</h2>
+
+    <p class="text">
+      <b>“KantoKart”</b> was founded in 1999 by <b>Myrna Burgos</b> in Malate, Manila.
+      Originally a small store, it became a cart business after its removal in 2019,
+      giving rise to the name <b>“KantoKart.”</b> Today, it is managed by her
+      daughter-in-law, <b>Susan Burgos.</b><br><br>
+      <i>— When change is unavoidable, resilience turns challenges into new opportunities. —</i>
+    </p>
+
+    <div class="social-link-list">
+      <a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+      <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+    </div>
+  </div>
+
+</section>
+
+<!--PRODUCTS -->
+<section class="products-section" id="products">
+
+  <!-- Categories -->
+  <div class="categories">
+    <div class="category-buttons-group">
+      <button type="button" class="active" data-category="all">All</button>
+      <button type="button" data-category="drinks">Drinks</button>
+      <button type="button" data-category="snacks">Snacks</button>
+      <button type="button" data-category="meryenda">Meryenda</button>
+      <button type="button" data-category="toiletries">Toiletries</button>
+    </div>
+
+    <div class="search-box">
+      <input type="text" id="searchInput" placeholder="Search products...">
+    </div>
+  </div>
+
+  <!-- Product List -->
+  <div class="products">
+
+    <!-- DRINKS -->
+  <!-- DRINKS -->
+  <div class="product drinks">
+    <img src="water1.jpg">
+    <h3>Water</h3>
+    <p class="price">₱25</p>
+
+  </div>
+
+  <div class="product drinks">
+    <img src="coke.jpg">
+    <h3>Coke</h3>
+    <p class="price">₱25</p>
+  </div>
+
+  <div class="product drinks">
+    <img src="sprite.jpg">
+    <h3>Sprite</h3>
+    <p class="price">₱25</p>
+  </div>
+
+  <div class="product drinks">
+    <img src="c2.jpg">
+    <h3>C2</h3>
+    <p class="price">₱20</p>
+  </div>
+
+   <div class="product drinks">
+    <img src="royal.jpg">
+    <h3>Royal</h3>
+    <p class="price">₱20</p>
+  </div>
+
+    <div class="product drinks">
+    <img src="cobra.jpg">
+    <h3>Cobra</h3>
+    <p class="price">₱25</p>
+  </div>
+
+   <div class="product drinks">
+    <img src="sting.jpg">
+    <h3>Sting</h3>
+    <p class="price">₱25</p>
+  </div>
+  <!-- SNACKS -->
+  <div class="product snacks">
+    <img src="oreo.jpg">
+    <h3>Oreo</h3>
+    <p class="price">₱10 <br><i>(per piece)</i></br></p>
+
+  </div>
+
+  <div class="product snacks">
+    <img src="creamo.jpg">
+    <h3>Cream-O</h3>
+    <p class="price">₱10 <br><i>(per piece)</i></br></p>
+
+  </div>
+
+    <div class="product snacks">
+    <img src="skyflakes.jpg">
+    <h3>Skyflakes</h3>
+    <p class="price">₱10 <br><i>(per piece)</i></br></p>
+
+  </div>
+
+  <div class="product snacks">
+    <img src="richoco.jpg">
+    <h3>Richoco</h3>
+    <p class="price">₱15 <br><i>(per piece)</i></br></p>
+
+  </div>
+
+  <div class="product snacks">
+    <img src="richeese.jpg">
+    <h3>Richeese</h3>
+    <p class="price">₱15<br><i>(per piece)</i></br></p>
+
+  </div>
+  <div class="product snacks">
+    <img src="fudgee.jpg">
+    <h3>Fudgee Bar</h3>
+    <p class="price">₱10 <br><i>(per piece, all kinds of flavor)</i></br></p>
+
+  </div>
+  <div class="product snacks">
+    <img src="piattos.jpg">
+    <h3>Piattos</h3>
+     <p class="price">₱20</p>
+
+  </div>
+
+    <div class="product snacks">
+    <img src="dingdong.jpg">
+    <h3>Dingdong</h3>
+     <p class="price">₱20</p>
+
+  </div>
+
+  <div class="product snacks">
+    <img src="vcut.jpg">
+    <h3>V-Cut</h3>
+    <p class="price">₱20</p>
+
+  </div>
+
+  <!-- MERYENDA -->
+ <div class="product meryenda">
+    <img src="egg.jpg">
+    <h3>Boiled Egg</h3>
+    <p class="price">₱12 <br><i>(per piece)</i></br></p>
+  </div>
+
+   <div class="product meryenda">
+    <img src="biko.jpg">
+    <h3>Biko</h3>
+    <p class="price">₱15 <br><i>(per piece)</i></br></p>
+   </div>
+   
+    <div class="product meryenda">
+    <img src="buns.jpg">
+    <h3>Buns</h3>
+    <p class="price">₱10 <br><i>(per piece)</i></br></p>
+   </div>
+
+    <div class="product meryenda">
+    <img src="maja.jpg">
+    <h3>Maja</h3>
+    <p class="price">₱15 <br><i>(per piece)</i></br></p>
+   </div>
+
+    <div class="product meryenda">
+    <img src="hopia.jpg">
+    <h3>Hopia</h3>
+    <p class="price">₱15 <br><i>(per piece)</i></br></p>
+   </div>
+
+  <!-- TOILETRIES -->
+  <div class="product toiletries">
+    <img src="modess.jpg">
+    <h3>Modess</h3>
+    <p class="price">₱10 <br><i>(per piece)</i></br></p>
+
+  </div>
+
+  <div class="product toiletries">
+    <img src="tissue.jpg">
+    <h3>Tissue</h3>
+    <p class="price">₱20</p>
+
+  </div>
+
+  <div class="product toiletries">
+    <img src="mask.jpg">
+    <h3>Mask</h3>
+    <p class="price">₱5 <br><i>(per piece)</i></br></p>
+
+  </div>
+
+  <div class="product toiletries">
+    <img src="sunsilk.jpg">
+    <h3>Sunsilk</h3>
+    <p class="price">₱10</p>
+
+  </div>
+
+  <div class="product toiletries">
+    <img src="soap1.jpg">
+    <h3>SafeGuard</h3>
+    <p class="price">₱25</p>
+  </div>
+
+    <div class="product toiletries">
+    <img src="colgate.jpg">
+    <h3>Colgate</h3>
+    <p class="price">₱25 <br><i>(per piece)</i></br></p>
+    </div>
+
+    <div class="product toiletries">
+    <img src="brush.jpg">
+    <h3>Toothbrush</h3>
+    <p class="price">₱25</p>
+  </div>
+
+    <div class="product toiletries">
+    <img src="alcohol.jpg">
+    <h3>Alcohol</h3>
+    <p class="price">₱20</p>
+  </div>
+</div>
+</section>
+
+<!-- CONTACT -->
+
+  <section class="contact-section" id="contact">
+  <h2 class="section-title">Contact</h2>
+  <div class="section-content">
+    <ul class="contact-info-list">
+      <li class="contact-info">
+        <i class="fa-solid fa-location-crosshairs"></i>
+        <p>999 Pedro Gil St., Baranggay 675, Paco Manila, Philippines</p>
+      </li>
+      <li class="contact-info">
+        <i class="fa-solid fa-phone"></i>
+        <p>0951-334-0106</p>
+      </li>
+       <li class="contact-info">
+        <i class="fa-regular fa-clock"></i>
+        <p>Monday-Friday: 6am to 5pm</p>
+      </li>
+        <li class="contact-info">
+        <i class="fa-regular fa-clock"></i>
+        <p>Saturday: 7am to 6pm</p>
+      </li>
+        <li class="contact-info">
+        <i class="fa-regular fa-clock"></i>
+        <p>Sunday: Closed</p>
+      </li>
+    </ul>
+  
+    <form action="#" class="contact-form">
+      <input type="text" placeholder="Your name" class="form-input"required>
+      <input type="text" placeholder="Your email" class="form-input"required>
+      <textarea placeholder="Your message" class="form-input"
+      required></textarea>
+      <button class="submit-button">Submit</button>
+    </form>
+  </div>
+</section>
+</main>
+
+<div class="rating-section">
+  <p class="rating-title">Rate our store</p>
+  <div class="stars">
+    <i class="fa-regular fa-star" data-value="1"></i>
+    <i class="fa-regular fa-star" data-value="2"></i>
+    <i class="fa-regular fa-star" data-value="3"></i>
+    <i class="fa-regular fa-star" data-value="4"></i>
+    <i class="fa-regular fa-star" data-value="5"></i>
+  </div>
+  <p id="rating-text">No rating yet</p>
+</div>
+
+<footer class="footer-section">
+  <div class="section-content">
+
+    <p class="copyright-text">
+      © 2025 KantoKart
+    </p>
+
+    <div class="social-link-list">
+      <a href="#" class="social-link">
+        <i class="fa-brands fa-facebook"></i>
+      </a>
+      <a href="#" class="social-link">
+        <i class="fa-brands fa-instagram"></i>
+      </a>
+    </div>
+
+    <p class="policy-text">
+      <a href="#" class="policy-link">Privacy Policy</a>
+      <span class="separator">•</span>
+      <a href="#" class="policy-link">Refund Policy</a>
+    </p>
+
+  </div>
+</footer>
+
+<script src="jvs.js"></script>
+</body>
+</html>
